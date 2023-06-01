@@ -1,0 +1,231 @@
+<%- include('partials/header.ejs') %>
+
+    <!-- Header -->
+    <section id="Header">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-right mb-md-0">
+                <li><a href="/index" class="nav-link px-2 text-secondary">HOME</a></li>
+                <li><a href="#products" class="nav-link px-2 text-dark">STORE</a></li>
+                <li><a href="#" class="nav-link px-2 text-dark">DROPDOWN</a></li>
+                <li><a href="#" class="nav-link px-2 text-dark">ABOUT</a></li>
+                <li><a href="#footer" class="nav-link px-2 text-dark">CONTACT</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control form-control-light text-bg-light" placeholder="Search..."
+                    aria-label="Search">
+            </form>
+
+            <div class="text-end">
+               <a <button type="button" href="/login" class="btn btn-outline-dark me-2">LOGIN</a></button>
+               <a <button type="button" href="/register" class="btn btn-primary me-2">Register</a></button>
+               <a <button type="button" href="/checkout" class="btn btn-dark me-2">Checkout</a></button>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+    <!-- Start main -->
+    <section id="main">
+        <div class="main-content">
+            <P class="lead mb-4">EFFECTIVE MEDICINE, NEW MEDICINE EVERYDAY</P>
+            <div class="col-lg-6 mx-auto">
+                <h1 class="display-5">WELCOME TO MEDICARE</h1>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                   <a <button type="button" href="#products" class="btn btn-primary btn-lg px-4 gap-3">SHOP NOW</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End main -->
+    <section id="Features">
+        <div class="container">
+            <div class="container px-4 py-5" id="hanging-icons">
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <img class="icons" src="./icons/free-shipping.png">
+                        </div>
+                        <div>
+                            <h3 class="fs-2">Free Shipping</h3>
+                            <p>Amet sit amet dolor
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <img class="icons" src="./icons/sale-free-5-svgrepo-com.png">
+                        </div>
+                        <div>
+                            <h3 class="fs-2">Season Sale 50% Off</h3>
+                            <p>Amet sit amet dolor Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <img class="icons" src="./icons/gift-svgrepo-com.png">
+                        </div>
+                        <div>
+                            <h3 class="fs-2">Buy
+                                A Gift Card</h3>
+                            <p>Amet sit amet dolor
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features -->
+    <section id="products">
+        <div class="container">
+            <div class="row">
+                <div class="title-section text-center col-12">
+                    <h2 class="text-uppercase">Popular Products</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <span class="tag">Sale</span>
+                    <a href="shop-single.html"> <img class="product-image" src="./products/product_01.png"
+                            alt="Image"></a>
+                    <h3 class="text-dark"><a href="shop-single.html">Bioderma</a></h3>
+                    <p class="price"><del>95.00</del> — $55.00</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a href="shop-single.html"> <img class="product-image" src="./products/product_02.png"
+                            alt="Image"></a>
+                    <h3 class="text-dark"><a href="shop-single.html">Chanca Piedra</a></h3>
+                    <p class="price">$70.00</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a href="shop-single.html"> <img class="product-image" src="./products/product_03.png"
+                            alt="Image"></a>
+                    <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
+                    <p class="price">$120.00</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a href="shop-single.html"> <img class="product-image" src="./products/product_04.png"
+                            alt="Image"></a>
+                    <h3 class="text-dark"><a href="shop-single.html">Cetyl Pure</a></h3>
+                    <p class="price"><del>45.00</del> — $20.00</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a href="shop-single.html"> <img class="product-image" src="./products/product_05.png"
+                            alt="Image"></a>
+                    <h3 class="text-dark"><a href="shop-single.html">CLA Core</a></h3>
+                    <p class="price">$38.00</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <span class="tag">Sale</span>
+                    <a href="shop-single.html"> <img class="product-image" src="./products/product_06.png"
+                            alt="Image"></a>
+                    <h3 class="text-dark"><a href="shop-single.html">Poo Pourri</a></h3>
+                    <p class="price"><del>$89</del> — $38.00</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <a href="shop.html" class="btn btn-primary px-4 py-3">View All Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+            <div class="container marketing">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="rounded-circle" src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg"
+                            alt="Generic placeholder image" width="150" height="150">
+                        <h2>John</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                            ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                            Praesent commodo cursus magna.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="rounded-circle" src="./images/petr-sevcovic-HzDF-rxlSeM-unsplash.jpg"
+                            alt="Generic placeholder image" width="150" height="150">
+                        <h2>Benny</h2>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+                            elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus
+                            commodo, tortor mauris condimentum nibh.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="rounded-circle" src="./images/vinicius-wiesehofer-UOavP_Z38lE-unsplash.jpg"
+                            alt="Generic placeholder image" width="150" height="150">
+                        <h2>Nishta</h2>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum
+                            id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                            condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+
+    </section>
+<!-- end of section testimonial -->
+<!-- start footer -->
+<section id="footer">
+    <div class="container">
+        <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2023 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer.ejs') %>
